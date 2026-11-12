@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f9f9f9; color: #333; }
+        h1 { color: #2c3e50; }
+        .section-box { background: #ffffff; padding: 15px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        #profile-img { border-radius: 50%; border: 3px solid #2c3e50; }
+    </style>
 </head>
 <body>
 
-<h1>Personal Profile Web page </h1>
-<p>
+    <!-- Heading with an id attribute -->
+    <h1 id="main-heading">Personal Profile Web Page</h1>
 
-About Me
- ( Do not include birthdate / age / contact information)
-Education / Achievements
-Course 
-IT Experience
-Hobbies & Interests
-Goals In Life / Dream
-Picture Gallery
-</p>
+    <!-- About Me Section using class and style attributes -->
+    <div class="section-box" style="border-left: 5px solid #3498db;">
+        <h2>About Me</h2>
+        <p>Hello! I am Heley Rai Hermosado.</p>
+    </div>
 
-<img src="https://picsum.photos/300/400" alt="Profile Picture" width="300">
- 
+    <!-- Education / Achievements Section -->
+    <div class="section-box">
+        <h2>Education & Achievements</h2>
+        <ul>
+            <li><strong>Course:</strong> Bachelor of Science in Information Technology</li>
+        </ul>
+    </div>
+
+    <!-- IT Experience & Hobbies -->
+    <div class="section-box">
+        <h2>IT Experience & Hobbies</h2>
+        <p>Experienced in basic HTML, CSS, and JavaScript projects.Outside of coding, I love exploring good, worthy restaurants and I am a certified matcha addict.</p>
+    </div>
+
+    <!-- Goals in Life -->
+    <div class="section-box">
+        <h2>Goals In Life / Dreams</h2>
+        <p>My ultimate dream is to become rich and achieve financial freedom through my career in tech.</p>
+    </div>
+
+    <!-- Picture Gallery with img attributes (src, alt, width, height) -->
+    <div class="section-box">
+        <h2>Picture Gallery</h2>
+        <p>Here is a sample profile placeholder image:</p>
+        <img id="profile-img" src="https://picsum.photos/300/400" alt="Profile Picture Placeholder" width="250" height="300">
+    </div>
+
+    <!-- External Link using href and target attributes -->
+    <p>Visit <a href="https://github.com" target="_blank" title="GitHub Homepage">GitHub</a> to explore more projects.</p>
+
 </body>
 </html>
