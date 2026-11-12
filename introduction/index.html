@@ -3,87 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Profile Web Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .profile-container {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        #main-title {
-            color: #2c3e50;
-            text-align: center;
-        }
-        .section-heading {
-            color: #2980b9;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 5px;
-        }
-        .highlight {
-            background-color: #e8f8f5;
-            padding: 2px 6px;
-            border-radius: 4px;
-        }
-        /* Grid styling to keep 16 pictures organized and uniform */
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 12px;
-            margin-top: 15px;
-        }
-        .gallery-grid img {
-            width: 100%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: transform 0.2s ease;
-        }
-        .gallery-grid img:hover {
-            transform: scale(1.03);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="profile-container">
-        <!-- HTML id and heading attributes -->
         <h1 id="main-title">Personal Profile Web Page</h1>
 
-        <!-- About Me Section -->
         <h2 class="section-heading">About Me</h2>
         <p>Hello! I am Heley Rai Hermosado.</p>
 
-        <!-- Education / Achievements -->
         <h2 class="section-heading">Education / Achievements</h2>
         <ul>
             <li><strong>Degree:</strong> Bachelor of Science in Information Technology</li>
             <li><strong>Institution:</strong> Asia Pacific College</li>
         </ul>
 
-        <!-- IT Experience -->
         <h2 class="section-heading">IT Experience</h2>
         <p>Experienced in basic HTML, CSS, and JavaScript projects.</p>
 
-        <!-- Hobbies & Interests -->
         <h2 class="section-heading">Hobbies & Interests</h2>
         <p>I love food hunting specifically exploring good, worthy restaurants and I am a certified matcha addict.</p>
 
-        <!-- Goals In Life / Dream -->
         <h2 class="section-heading">Goals In Life / Dream</h2>
         <p>To achieve professional financial independence and build an enterprise-level career in cloud architecture.</p>
 
-        <!-- HTML Links Attribute -->
         <h2 class="section-heading">Quick Links</h2>
         <p>Check out my course repository on <a href="https://github.com/HeleyHermosado/webprog-CS251_IT253-html-lessons" target="_blank">GitHub</a>.</p>
 
-        <!-- Picture Gallery / HTML Images Attribute -->
         <h2 class="section-heading">Picture Gallery</h2>
         <div class="gallery-grid">
             <img src="pic2.jpg" alt="Gallery Photo">
@@ -92,7 +39,6 @@
             <img src="pic5.jpg" alt="Gallery Photo">
             <img src="pic8.JPG" alt="Gallery Photo">
             <img src="pic12.jpg" alt="Gallery Photo">
-            <!-- Add additional image tags here if you have more uploaded to your introduction folder -->
         </div>
     </div>
 
